@@ -1,0 +1,303 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: SWARUP TALUKDAR"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login;title-of-your-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3348658842,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in Login page",
+            "match": {
+              "location": "StepDefLogin.user_is_in_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90564473,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters accountNumber 56231",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56231",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefLogin.user_enters_accountNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66593129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "password 5236",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5236",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefLogin.password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64287308,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefLogin.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53926089,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "open bank page",
+            "match": {
+              "location": "StepDefLogin.open_bank_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login;title-of-your-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2889819849,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in Login page",
+            "match": {
+              "location": "StepDefLogin.user_is_in_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72448542,
+              "error_message": "java.lang.AssertionError: valid 236521 expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat com.cg.trg.demo.StepDefLogin.user_enters_accountNumber(StepDefLogin.java:40)\r\n\tat ✽.When user enters accountNumber 236521(resources/userlogin.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user enters accountNumber 236521",
+            "match": {
+              "arguments": [
+                {
+                  "val": "236521",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefLogin.user_enters_accountNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "password 12369",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12369",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefLogin.password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefLogin.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "open bank page",
+            "match": {
+              "location": "StepDefLogin.open_bank_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login;title-of-your-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2759165441,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in Login page",
+            "match": {
+              "location": "StepDefLogin.user_is_in_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71292966,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters accountNumber 15982",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15982",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefLogin.user_enters_accountNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71018942,
+              "error_message": "java.lang.AssertionError: valid 523 expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat com.cg.trg.demo.StepDefLogin.password(StepDefLogin.java:51)\r\n\tat ✽.And password 523(resources/userlogin.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "password 523",
+            "match": {
+              "arguments": [
+                {
+                  "val": "523",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefLogin.password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefLogin.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "open bank page",
+            "match": {
+              "location": "StepDefLogin.open_bank_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "To check login details",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "resources/userlogin.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag3"
+      }
+    ]
+  }
+]
