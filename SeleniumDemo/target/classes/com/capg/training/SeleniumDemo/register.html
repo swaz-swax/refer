@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script src="reg.js" type="text/javascript">
+
+
+/* function fun1(){
+	--function funct() {
+--var name = document.getElementsByName("uname").valueOf();
+
+--alert("thank u for registering" + name);
+--}
+
+
+	 var uname= document.getElementById("uid").value;
+	var amount= document.getElementsById("aid").value;
+	var value=document.forms[0].elements[0].value;
+
+	alert("ur value is "+value);
+
+/* 	if(amount<500)
+		{alert("you paid " +amount);
+		
+		}
+	else {alert("invalid amount");}
+	 */
+	
+	
+	/* 		 if(uname=="Javeed"){
+	 alert("welcome " +uname);
+
+	 }
+	 else
+	 { alert("sorry");}
+	 
+	 
+	alert("welcome"+uname);
+	document.write("hi friends...");
+	 */
+} */
+</script>
+
+
+</head>
+
+<body bgcolor="yellow">
+	<form action="hello.html" onsubmit="fun1()" method="post">
+		<table>
+			<tr>
+				<td>User name:</td>
+				<td><input type="text" id="uid" name="uname" pattern="[A-Z][a-z]+"
+					title="Init caps" required="required"></input></td>
+			</tr>
+			<tr>
+				<td>Amount:</td>
+				<td><input type="number" id="aid" name="amount"></input></td>
+			</tr>
+			<tr>
+				<td>DOB:</td>
+				<td><input type="date" name="dob"></input></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email"></input></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>
+					<input type="radio" name="gender" value="male" checked/>Male
+					<input type="radio" name="gender" value="female"/>Female
+				</td>
+			</tr>
+			<tr>
+				<td>Course:</td>
+				<td>
+					<input type="checkbox" name="course1" value="java"/>JAVA 
+					<input type="checkbox" name="course2" value=" C++" checked/>C++
+					<input type="checkbox" name="course3" value=" Python"/>Python 
+				</td>
+			</tr>
+			<tr>
+				<td>Select city:</td>
+				<td><select name="city" multiple size="3">
+						<option value="no val">select</option>
+						<option value="hyd">Hyderabad</option>
+						<option value="che">Chennai</option>
+						<option value="Pun">Pune</option>
+						<option value="Kol">Kolkata</option>
+						<option value="Del" selected>Delhi</option>
+						<option value="Goa">Goa</option>
+						<option value="Mys">Mysore</option>
+						<option value="Noi">Noida</option>
+						<option value="Ran">Ranchi</option>
+						<option value="JK">Jammu and Kashmir</option>
+						<option value="Punj">Punjab</option>
+						<option value="Mani">Manipore</option>
+						<option value="Ori">Orissa</option>
+						<option value="Ker">Kerala</option>
+						
+				</select></td>
+			</tr>
+			<tr>
+				<td>Comments: </td>
+				<td><textarea name="comments" maxlength="150"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Upload Resume: </td>
+				<td><input type="file" name="resume"></input>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><input type="submit" value="Register" /></td>
+				<td><input type="reset" value="reset" /></td>
+			</tr>
+		</table>
+	</form>
+	
+</body>
+</html>

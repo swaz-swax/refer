@@ -1,0 +1,51 @@
+<html>
+<body>
+<script src="demo1.js"> </script>
+<div style="background-color: lightblue">
+<h1>HTML Form Demo</h1>
+	<form name="frm1" action="" onsubmit="return chkEmpty()">
+		Enter your  First Name : <input type="text" name="fname" size="10" pattern="[A-Z][a-z]{3,10}" 
+		title="First Name should contain only alphabets, First letter capital"	required /><br/>
+		Enter your  Last Name : <input type="text" name="lname" size="10" pattern="[A-Z][a-z]{3,10}" 
+		title=" Last Name should contain only alphabets, First letter capital"	required /><br/>
+		DOB: <input type="text">
+		
+		Enter password : <input type="password" name="pass" size="10" required /><br/>
+		Enter your age :
+		<input type="number" name="age" min="20" max="60" /><br/>
+		Enter your mail id :
+		<input type="email" name="mailid"/><br/>
+		Enter your joining date :
+		<input type="date" name="jdate" />
+		<br/>
+		Enter your address :
+		<textarea rows="5" cols="10">Type here</textarea><br/>
+		Select your company:
+		<input type="radio" value="Cap" name="comp" checked>Capgemini
+		<input type="radio" value="Tech" name="comp">Tech Mahindra
+		<input type="radio" value="Atos" name="comp">Atos
+		<input type="radio" value="Other" name="comp">Other		
+		<br/>
+		Select your Skills :
+		<input type="checkbox" value="HTML" name="skills"> HTML
+		<input type="checkbox" value="XML" name="skills"> XML
+		<input type="checkbox" value="Javascript" name="skills"> Javascript
+		<input type="checkbox" value="C" name="skills" checked> C
+		<br/>
+		Select Zone :
+		<select name="zone" onchange="populateCity()">
+			<option value="none">Select</option>
+			<option value="South">South Zone</option>
+			<option value="North">North Zone</option>
+			<option value="Central">Central Zone</option>
+		</select>
+		Select City :
+		<select name="city">
+			<option value="none">Select</option>
+		</select><br/>
+		<input type="submit" value="Register"/>
+		<input type="reset" value="Cancel"/>
+	</form>
+	</div>
+</body>
+</html>

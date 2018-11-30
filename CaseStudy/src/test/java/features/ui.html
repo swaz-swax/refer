@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="demo1.js"> </script>
+	<div align="left">
+	
+	<form method="GET" name="frm1" action="" onsubmit="return chkEmpty()">
+	<label>company name</label> <input id="element1" type="text" name="companyName" value="CAPGEMINI" readonly/><br/>
+	<label>enter name :</label><input type="text" name="userName" placeholder="enter name" title="please enter value" autofocus/><br/>
+	<label>enter city :</label><input type="text" name="city" autofocus/><br/>
+	<label>password : </label> <input type="password" name="password" /><br/>
+	<label>Gender: </label> 
+	<br/>
+	Male <input type="radio" name="gender"  value="M"/><br/>
+	Female <input type="radio" name="gender" value="F"/>
+	<br>
+	<label> languages Known</label>
+	English <input type="checkbox" name="lang" value="Eng" id="engid"/><br>
+	Telugu<input type="checkbox" name="lang" value="Tel" id="telid"/><br>
+	Tamil<input type="checkbox" name="lang" value="tam" id="tamid"/><br>
+	<br>
+	hidden : <input type="hidden" value="welcome my emp id is 23432"/>
+	
+	<br>
+	<textarea rows="3" cols="5"></textarea>
+	<br/>
+	<label>country: </label> 
+	<select name="country">
+		<option>select</option>
+		<option selected>IND</option>
+		<option>US</option>
+		<option>UK</option>
+		<option>IRAN</option>
+		<option>IRAQ</option>
+	</select>
+	
+	<br>
+	My number : <input type="number"  name="mynum" max="100" step="10"/><br>
+	<label>email : </label><input type="email" name="email"/><br>
+	<label>mobile number</label><input type="text" name="mobile" maxlength="10" size="20"/>
+	<label>alternate number</label><input type="number" name="altMobile"  value="987876542" size="20" disabled/>
+	<input type="submit" value="store" name="saves data" />
+	<input type="reset" value="clear"/><br/>
+	<input type="button" value="js button 1st way"/>
+	<button>js button</button>
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+
+</head>
+
+<body bgcolor="lightblue" background="Chrysanthemum.jpg">
+	<div style="background-color: lightgreen;" align="center">
+		<h1>Register</h1>
+	</div>
+	<div style="background-color: lightyellow;" align="center">
+		<form action="hello.html" onsubmit="fun1()" method="post" >
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" id="uid" name="fname"
+						pattern="[A-Z][a-z]+" title="Init caps" required="required"></input></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" id="uid" name="lname"
+						pattern="[A-Z][a-z]+" title="Init caps" required="required"></input></td>
+				</tr>
+				<tr>
+					<td>DOB:</td>
+					<td><input type="date" id="dateid" name="date"></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><br>
+						<input type="radio" name="gender" value="M" />Male <br>
+						<input type="radio" name="gender" value="F" />Female</td>
+				</tr>
+				<tr>
+					<td>Language Known:</td>
+					<td><br><br>
+						<input type="checkbox" name="lang" value="Eng" id="engid" />English<br>
+						<input type="checkbox" name="lang" value="Tel" id="telid" />Telugu<br>
+						<input type="checkbox" name="lang" value="tam" id="tamid" />Tamil<br>
+						<br></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><textarea rows="5" cols="10">Type here</textarea>
+				</tr>
+
+				<tr>
+					<td>City:</td>
+					<td><select name="city">
+							<option value="no val" selected>select</option>
+							<option value="hyd">Hyderabad</option>
+							<option value="che">Chennai</option>
+							<option value="Pun">Pune</option>
+							<option value="Kol">Kolkata</option>
+							<option value="Del">Delhi</option>
+							<option value="Goa">Goa</option>
+							<option value="Mys">Mysore</option>
+							<option value="Noi">Noida</option>
+							<option value="Ran">Ranchi</option>
+							<option value="JK">Jammu and Kashmir</option>
+							<option value="Punj">Punjab</option>
+							<option value="Mani">Manipore</option>
+							<option value="Ori">Orissa</option>
+							<option value="Ker">Kerala</option>
+
+					</select></td>
+
+
+				</tr>
+				<tr>
+					<td>Mobile Number:</td>
+					<td><input type="number" id="mobileid" name="mobile"
+						pattern="[6-9]\\d{9}"
+						title="Only 10 digits starting with 6, 7, 8 or 9"></input></td>
+				</tr>
+				<tr>
+					<td>Account Number:</td>
+					<td><input type="number" id="acid" name="account"
+						pattern="\\d{9}" title="Only 9 digits starting with 6, 7, 8 or 9"></input></td>
+				</tr>
+				<tr>
+					<td>PAN Number:</td>
+					<td><input type="number" id="panid" name="pan"
+						pattern="\\d{12}"
+						title="Only 12 digits starting with 6, 7, 8 or 9"></input></td>
+				</tr>
+				<tr>
+					<td>Credit Card Number:</td>
+					<td><input type="number" id="creditid" name="credit"
+						pattern="\\d{16}"></input></td>
+				</tr>
+
+				<tr>
+					<td>Number of Years:</td>
+					<td><input type="number" id="yearsid" name="years" max="27"></input></td>
+
+				</tr>
+				<tr>
+					<td>Rate Of Interest:</td>
+					<td><input type="number" id="rateid" name="rate" /></td>
+				</tr>
+
+				<tr>
+					<td>Loan Amount:</td>
+					<td><input type="number" id="loanid" name="loan" max="4000000" /></td>
+				</tr>
+				<tr>
+					<td>Load Type</td>
+					<td><select name="load type">
+							<option value="no val" selected>select</option>
+							<option value="home">Home</option>
+							<option value="car">Car</option>
+							<option value="personal">Personal</option>
+							<option value="education">Education</option>
+					</select></td>
+				</tr>
+				<tr><td></td>
+				<td></td>
+				</tr>
+				
+				<tr>
+					<td><input type="submit" value="Save" name="save data" /></td>
+					<td><input type="reset" value="Reset" name="reset" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
